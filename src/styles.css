@@ -1,0 +1,88 @@
+:root {
+    --bg: #232323;
+    --nb_bg: #3F4045;
+    --nb_active: #1D8AC1;
+    --nb_active_hover: #339DDA;
+    --nb_hover: #3b3b49;
+
+    --courier: 'Courier New', Courier, monospace;
+    --lucida: "Lucida Console", "Courier New", monospace;
+}
+
+* {
+    font-family: var(--lucida);
+    font-size: 18px;
+    background-color: var(--bg);
+    color: white;
+    text-decoration: none;
+}
+
+.navbar {
+    padding: 1% 0 0 0;
+    text-align: center;
+    background-color: var(--nb_bg);
+    overflow: hidden;
+}
+
+.navbar a {
+    padding: 1% 5%;
+    border-style: inset;
+}
+
+.navbar a:hover {
+    background-color: var(--nb_hover);
+}
+
+.navbar a.active {
+    background-color: var(--nb_active);
+    border-style: outset;
+}
+
+.navbar a.active:hover {
+    background-color: var(--nb_active_hover);
+}
+
+.navbar a.github {
+    float: right;
+    padding: 0;
+    margin: 0;
+    border-style: none;
+    background-color: var(--nb_bg);
+}
+
+.navbar a.linkedin {
+    float: left;
+    padding: 0;
+    margin: 0;
+    border-style: none;
+    background-color: var(--nb_bg);
+}
+
+.main {
+    margin: 2% auto;
+    width: 60%;
+    border-style: outset;
+    padding: 1%;
+    border-radius: 4%;
+}
+
+.main h1 {
+    text-align: center;
+    font-size: larger;
+}
+
+.main h2 {
+    float: left;
+    font-size: larger;
+    color: var(--nb_active);
+}
+
+.main h3 {
+    float: right;
+    font-size: larger;
+    color: var(--nb_active);
+}
+
+.main p {
+    text-align: justify;
+}
