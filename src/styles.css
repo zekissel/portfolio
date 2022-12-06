@@ -85,4 +85,15 @@
 
 .main p {
     text-align: justify;
+    line-height: 130%;
+}
+
+.main a {
+    color: var(--nb_active);
+}
+
+.main img {
+    text-align: center;
+    margin: 0 auto;
+    padding: 0 25%;
 }
