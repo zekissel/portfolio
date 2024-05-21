@@ -1,2 +1,1 @@
-<h1>Zane Kissel</h1>
-<a href='https://zekissel.github.io/portfolio/' ><h3>Personal Portfolio</h3></a>
+<h1>Zane Kissel's <a href='https://zekissel.github.io/portfolio/' >Portfolio</a></h1>
